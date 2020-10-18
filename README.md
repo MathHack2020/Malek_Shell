@@ -26,7 +26,7 @@ Implémentez un script fils.sh qui affiche son PID, accessible depuis la variabl
 ```
 ### Question 2
 ```shell
-echo "le processus courant est : "   echo $$;
+echo "le processus courant est : "    $$;
 
   for p in {1..10}; do
     ./fils.sh;
