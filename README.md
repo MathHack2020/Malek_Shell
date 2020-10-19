@@ -1,6 +1,6 @@
 # TP_02
 
-https://moodle-sciences.upmc.fr/moodle-2020/mod/assign/view.php?id=55017
+
 
 ## Exercice 1
 
