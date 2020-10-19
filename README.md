@@ -13,6 +13,7 @@ https://colab.research.google.com/drive/1RQL9xV_87cjOoO6RrhQe3LEznzWFoxna
 ### Question 2
 ```shell
   cd exo1
+  cat mon_test.c
 ```
 
 
