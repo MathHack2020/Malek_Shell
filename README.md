@@ -1,20 +1,15 @@
 # TP_02
 
 Téléchargemetnt du fichier 
-```shell
-  wget http://julien.sopena.fr/LU2IN020-TP_01-EXO_03.tgz
-```
+
 
 ## Exercice 1
 
 ### Question 1
-Pour commencer nous allons récupérer les données nécessaires à l’ensemble des exercices. Placez-vous
-dans le répertoire correspondant à ce TP pour y extraire l’archive après l’avoir chargée à l’URL suivante :
-http ://julien.sopena.fr/LU2IN020-TP_02.tgz
-
 ```shell
-  cd  LU2IN020-TP_02
+  wget http://julien.sopena.fr/LU2IN020-TP_01-EXO_03.tgz
 ```
+ 
 ### Question 2
 ```shell
   cd exo1
