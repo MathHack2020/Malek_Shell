@@ -79,8 +79,12 @@ int main(int argc, char const *argv[])
 ```
 > l'exécution  du fichier vas renvoyer un message d'erreur. Au fait le shell ne parvient pas à localise le fichier est_il_pair.
 
+### Question 3
 
-
+```shell
+  $PATH_OLD=$PATH
+  PATH = tp2/exo2:$PATH_OLD
+```
 
 
 ## Exercice 3:  Une Histoire de famille
