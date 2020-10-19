@@ -79,6 +79,15 @@ int main(int argc, char const *argv[])
 ```
 
 
+##  Exercice 2 : Et PATH le chemin
+### Question 1
+
+```shell
+  cp est_il_pair ../exo2
+  cd ../exo2/
+  ./est_il_pair
+```
+
 ## Exercice 3:  Une Histoire de famille
 ### Question 1
 Implémentez un script fils.sh qui affiche son PID, accessible depuis la variable $$, et le PID de son père, accessible depuis la variable $PPID
