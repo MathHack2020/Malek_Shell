@@ -14,7 +14,10 @@ https://colab.research.google.com/drive/1RQL9xV_87cjOoO6RrhQe3LEznzWFoxna
 ```shell
   cd exo1
   cat mon_test.c
+  cat README
+  gcc mon_test.c -o mon_test
 ```
+
 
 
 
