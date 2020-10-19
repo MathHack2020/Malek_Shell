@@ -1,22 +1,5 @@
 # TP_02
 
-https://colab.research.google.com/drive/1RQL9xV_87cjOoO6RrhQe3LEznzWFoxna
-#include<stdlib.h>
-#include<stdio.h>
-
-int main(int argc, char const *argv[])
-{
-	int i, ret;
-
-	if (argc < 2) {
-		printf("Usage : mon_test <un_entier>\n");
-		exit(-1);
-	}
-
-	printf("Il %s pair\n", atoi(argv[0]) % 2 ? "n'est pas" : "est");
-
-	return 0;
-}
 
 ## Exercice 1
 
@@ -68,7 +51,7 @@ int main(int argc, char const *argv[])
 	int i, ret;
 
 	if (argc < 2) {
-		printf("Usage : %s <un_entier>\n" , argv[1] );
+		printf("Usage : %s <un_entier>\n" , argv[0] );
 		exit(-1);
 	}
 
@@ -87,6 +70,9 @@ int main(int argc, char const *argv[])
   cd ../exo2/
   ./est_il_pair
 ```
+
+
+
 
 ## Exercice 3:  Une Histoire de famille
 ### Question 1
