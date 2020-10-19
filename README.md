@@ -134,7 +134,7 @@ i=1;
 # la boucle  exécuter dix fois le fichier fils.sh
   while [ $i -le "$1" ]; do
   # affichage du process courant
-    echo " Fils $i " ;  ./fils.sh;
+    echo " Fils $i "   $(./fils.sh);
 ((i++)) ;
    done;
 fi
