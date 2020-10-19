@@ -1,6 +1,5 @@
 # TP_02
 
-Téléchargemetnt du fichier 
 
 
 ## Exercice 1
