@@ -82,7 +82,7 @@ int main(int argc, char const *argv[])
 ### Question 3
 
 ```shell
-  $PATH_OLD=$PATH
+  PATH_OLD=$PATH
   PATH = tp2/exo2:$PATH_OLD
 ```
 
@@ -109,6 +109,8 @@ Implémentez un script fils.sh qui affiche son PID, accessible depuis la variabl
 ```shell
   echo   "je suis "   $$    "et mon père est " $PPID
 ```
+>  je suis    1901 et mon père est  1900
+
 ### Question 2
 ```shell
 echo "le processus courant est : "    $$;
