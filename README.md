@@ -46,7 +46,7 @@ int main(int argc, char const *argv[])
 ```
    Il n'est pas pair
 ```shell
-  $	./mon_test 23
+  $	./mon_test 24
 ```
    Il est pair
 
