@@ -221,7 +221,7 @@ _ pere.sh
 #!/bin/bash
 # tester l'éxistance d'1 paramaètre
 if [ -z  $1 ] ; then
-echo " il manque un paramètre"; exit 1;
+echo " il manque un paramètre"; exit -1;
 else
 # affichage  du process en cours
 echo "le processus courant est : "     $$;
@@ -240,7 +240,7 @@ fi
  #!/bin/bash
 # affichage  du process en cours
 if [ -z  $1 ] ; then
-echo " pas de paramètre fourni"; exit 1;
+echo " pas de paramètre fourni"; exit -1;
 else
 echo "Je suis   : "     $$;
 i=1;
