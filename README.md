@@ -72,6 +72,14 @@ int main(int argc, char const *argv[])
 ```
 > Il est pair
 
+### Question 2
+
+```shell
+  est_il_pair 24
+```
+> l'exécution  du fichier vas renvoyer un message d'erreur. Au fait le shell ne parvient pas à localise le fichier est_il_pair.
+
+
 
 
 
