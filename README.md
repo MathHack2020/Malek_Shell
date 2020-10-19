@@ -123,7 +123,6 @@ echo "le processus courant est : "    $$;
   for p in {1..10}; do
     ./fils.sh;
    done;
-   je suis    1910 et mon père est  1900
 ```
 
 ```
