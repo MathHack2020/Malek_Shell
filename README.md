@@ -70,6 +70,7 @@ int main(int argc, char const *argv[])
   cd ../exo2/
   ./est_il_pair 24
 ```
+> Il est pair
 
 
 
