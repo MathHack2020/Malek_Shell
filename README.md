@@ -86,6 +86,13 @@ int main(int argc, char const *argv[])
   PATH = tp2/exo2:$PATH_OLD
 ```
 
+### Question 4
+
+```shell
+PATH = .: $OLD_PATH
+```
+> On risque de confondre les  commandes shell avec des fichiers excécutable qu'on pourra crée. Pour éviter toute confusion , il faut toujours préciser le chemin du fichier à exécuter.
+
 
 ## Exercice 3:  Une Histoire de famille
 ### Question 1
