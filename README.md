@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
 		exit(-1);
 	}
 
-	printf("Il %s pair\n", atoi(argv[1]) % 2 ? "n'est pas" : "est");
+	printf("Il %s pair\n", atoi(argv[0]) % 2 ? "n'est pas" : "est");
 
 	return 0;
 }
