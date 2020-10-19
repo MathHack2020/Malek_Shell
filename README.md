@@ -91,7 +91,7 @@ int main(int argc, char const *argv[])
 ```shell
 PATH = .: $OLD_PATH
 ```
-> On peur exécuter le fichier  "est_it_pair"  sans préciser le chemin du dit fichier. CAD  sans passer par  ./est_il_pair. 
+> On peut exécuter le fichier  "est_il_pair"  sans préciser le chemin du dit fichier. CAD  sans passer par  ./est_il_pair. 
 
 
 ### Question 5
@@ -101,7 +101,7 @@ PATH = .: $OLD_PATH
 ```
 
 ### Question 5
-> il est dangereux de mettre '.' dans un PATH  parcequ'on risque de confondre les  commandes shell avec des fichiers excécutable qu'on pourra crée. Pour éviter toute confusion , il faut toujours préciser le chemin du fichier à exécuter.
+> il est dangereux de mettre '.' dans un PATH  parcequ'on risque de confondre les  commandes shell avec ceux des fichiers excécutables déjà crée. Pour éviter toute confusion , il faut toujours préciser le chemin du fichier à exécuter.
 
 ## Exercice 3:  Une Histoire de famille
 ### Question 1
