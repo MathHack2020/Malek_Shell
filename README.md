@@ -1,5 +1,6 @@
 # TP_02
 
+https://colab.research.google.com/drive/1RQL9xV_87cjOoO6RrhQe3LEznzWFoxna
 
 
 ## Exercice 1
