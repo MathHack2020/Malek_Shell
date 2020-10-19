@@ -68,7 +68,7 @@ int main(int argc, char const *argv[])
 ```shell
   cp est_il_pair ../exo2
   cd ../exo2/
-  ./est_il_pair
+  ./est_il_pair 24
 ```
 
 
