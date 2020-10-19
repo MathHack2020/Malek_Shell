@@ -100,7 +100,7 @@ PATH = .: $OLD_PATH
    mkdir -p rep1/rep2
 ```
 
-### Question 5
+### Question 6
 > il est dangereux de mettre '.' dans un PATH  parcequ'on risque de confondre les  commandes shell avec ceux des fichiers excécutables déjà crée. Pour éviter toute confusion , il faut toujours préciser le chemin du fichier à exécuter.
 
 ## Exercice 3:  Une Histoire de famille
