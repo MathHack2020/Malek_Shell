@@ -94,6 +94,14 @@ PATH = .: $OLD_PATH
 > On risque de confondre les  commandes shell avec des fichiers excécutable qu'on pourra crée. Pour éviter toute confusion , il faut toujours préciser le chemin du fichier à exécuter.
 
 
+### Question 5
+
+```shell
+   mkdir -p rep1/rep2
+```
+
+
+
 ## Exercice 3:  Une Histoire de famille
 ### Question 1
 Implémentez un script fils.sh qui affiche son PID, accessible depuis la variable $$, et le PID de son père, accessible depuis la variable $PPID
