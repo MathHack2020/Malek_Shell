@@ -106,12 +106,14 @@ PATH = .: $OLD_PATH
 ## Exercice 3:  Une Histoire de famille
 ### Question 1
 Implémentez un script fils.sh qui affiche son PID, accessible depuis la variable $$, et le PID de son père, accessible depuis la variable $PPID
+> fils.sh
 ```shell
   echo   "je suis "   $$    "et mon père est " $PPID
 ```
->  je suis    1901 et mon père est  1900
+> je suis    1823 et mon père est  1599
 
 ### Question 2
+> pere.sh
 ```shell
 echo "le processus courant est : "    $$;
 
@@ -121,18 +123,21 @@ echo "le processus courant est : "    $$;
 ```
 
 ### Question 3
+
+> fils.sh
 ```shell
 #!/bin/bash
   echo   "je suis "   $$    "et mon père est " $PPID
 ```
 ```shell
-$ chmod u+x fils.sh
+ chmod u+x fils.sh
 
-$ ./fils.sh
-je suis    1823 et mon père est  1599
+./fils.sh
 ```
+> je suis    1823 et mon père est  1599
 
 
+> pere.sh
 ```shell
 #!/bin/bash
 echo "le processus courant est : "     $$;
@@ -146,10 +151,11 @@ echo "le processus courant est : "     $$;
 
 
 ```shell
-$ chmod u+x pere.sh
+  chmod u+x pere.sh
 
-$ ./pere.sh
-le processus courant est :    1900
+  ./pere.sh
+```
+>  le processus courant est :    1900
 je suis    1901 et mon père est  1900
 je suis    1902 et mon père est  1900
 je suis    1903 et mon père est  1900
@@ -161,7 +167,7 @@ je suis    1908 et mon père est  1900
 je suis    1909 et mon père est  1900
 je suis    1910 et mon père est  1900
 
-```
+
 
 ### Question 4
 ```shell
