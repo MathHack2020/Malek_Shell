@@ -33,9 +33,22 @@ int main(int argc, char const *argv[])
   gcc mon_test.c -o mon_test
 ```
 
-Usage : mon_test <un_entier>
 
 
+### Question 3
+
+```shell
+  $	./mon_test 
+```
+   Usage : mon_test <un_entier>
+```shell
+  $	./mon_test 23
+```
+   Il n'est pas pair
+```shell
+  $	./mon_test 23
+```
+   Il est pair
 
 ## Exercice 3:  Une Histoire de famille
 ### Question 1
