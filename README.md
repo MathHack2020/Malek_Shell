@@ -23,6 +23,7 @@ int main(int argc, char const *argv[])
 ### Question 1
 ```shell
   wget http://julien.sopena.fr/LU2IN020-TP_01-EXO_03.tgz
+  tar  -xvzf LU2IN020-TP_02.tgz
 ```
  
 ### Question 2
@@ -49,6 +50,34 @@ int main(int argc, char const *argv[])
   $	./mon_test 24
 ```
    Il est pair
+
+
+### Question 4
+```shell
+   mv  mon_test  est_il_pair 
+```
+je constate que l'exécution du fichier sans paramètre fait référence au fichier  "mon_test"
+
+### Question 5
+```shell
+  #include<stdlib.h>
+#include<stdio.h>
+
+int main(int argc, char const *argv[])
+{
+	int i, ret;
+
+	if (argc < 2) {
+		printf("Usage : %s <un_entier>\n" , argv[1] );
+		exit(-1);
+	}
+
+	printf("Il %s pair\n", atoi(argv[1]) % 2 ? "n'est pas" : "est");
+
+	return 0;
+} 
+```
+
 
 ## Exercice 3:  Une Histoire de famille
 ### Question 1
