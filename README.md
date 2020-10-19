@@ -110,6 +110,9 @@ Implémentez un script fils.sh qui affiche son PID, accessible depuis la variabl
 ```shell
   echo   "je suis "   $$    "et mon père est " $PPID
 ```
+```
+bash fils.sh
+```
 > je suis    1823 et mon père est  1599
 
 ### Question 2
@@ -120,6 +123,23 @@ echo "le processus courant est : "    $$;
   for p in {1..10}; do
     ./fils.sh;
    done;
+   je suis    1910 et mon père est  1900
+```
+
+```
+ bash pere.sh
+  
+    le processus courant est :    1900
+je suis    1901 et mon père est  1900
+je suis    1902 et mon père est  1900
+je suis    1903 et mon père est  1900
+je suis    1904 et mon père est  1900
+je suis    1905 et mon père est  1900
+je suis    1906 et mon père est  1900
+je suis    1907 et mon père est  1900
+je suis    1908 et mon père est  1900
+je suis    1909 et mon père est  1900
+je suis    1910 et mon père est  1900
 ```
 
 ### Question 3
@@ -154,8 +174,7 @@ echo "le processus courant est : "     $$;
   chmod u+x pere.sh
 
   ./pere.sh
-```
->  le processus courant est :    1900
+   le processus courant est :    1900
 je suis    1901 et mon père est  1900
 je suis    1902 et mon père est  1900
 je suis    1903 et mon père est  1900
@@ -166,6 +185,8 @@ je suis    1907 et mon père est  1900
 je suis    1908 et mon père est  1900
 je suis    1909 et mon père est  1900
 je suis    1910 et mon père est  1900
+```
+
 
 
 
